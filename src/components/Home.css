@@ -1,0 +1,136 @@
+/* Main container */
+.main-display {
+    height: calc(100vh - 45px); /* Full height with small margin */
+    margin: 10px 5%; /* Top/bottom margin, responsive left/right */
+    background-color: #DAEDFE; /* Light blue background */
+    box-sizing: border-box;
+    padding: 1px 10px;
+  }
+
+  .company-name{
+    color: black;
+  }
+  
+  /* Header */
+  #heading {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #004a99;
+    margin-bottom: 5px;
+  }
+  
+  /* Filter Section */
+  .filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 15px; */
+    margin-bottom: 5px;
+  }
+  .filter-card {
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #A1D1FF;
+    border-radius: 10px;
+    padding: 10px; /* Add padding inside the card */
+    box-sizing: border-box; /* Ensure padding doesn't affect size */
+    margin: 10px; /* Add margin around each card */
+  }
+  
+  .filter-card label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px; /* Increase space between label and input */
+  }
+  
+  .search-box {
+    position: relative;
+    margin-top: 5px; /* Space between label and search box */
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 8px 30px 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .filter-card select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px; /* Space between search box and dropdown */
+  }
+  
+  /* Data Tabs */
+  .data-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .data-tab {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .data-tab:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .icons-section {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Table Container */
+  .table-container {
+    max-height: 300px; /* Restrict table height */
+    overflow-y: auto; /* Add scroll for overflow */
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #e6f2ff;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  

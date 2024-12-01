@@ -1,0 +1,44 @@
+.scroll-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.scroll-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.table-container {
+  max-height: 450px; /* Restrict table height */
+  overflow-y: auto; /* Add scroll for overflow */
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #e6f2ff;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
